@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Flight_Controller.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_trash/tests_plane.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Plane.py" afterDir="false" />
+    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="refactor: mention calc_speed in Plane class in class docstring">
+      <change afterPath="$PROJECT_DIR$/src/Airspace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +55,48 @@
       <option name="presentableId" value="Default" />
       <updated>1724928143203</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1724931587578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724931587578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Plane class that represents planes in airspace">
+      <option name="closed" value="true" />
+      <created>1724931722220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724931722220</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor: mention calc_speed in Plane class in class docstring">
+      <option name="closed" value="true" />
+      <created>1724932313417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724932313417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="feat: Plane class that represents planes in airspace" />
+    <MESSAGE value="refactor: mention calc_speed in Plane class in class docstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: mention calc_speed in Plane class in class docstring" />
   </component>
 </project>
