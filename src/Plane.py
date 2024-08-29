@@ -8,7 +8,8 @@ class Plane:
         position (int, int) : Position in airspace
         prev_position (int, int) : Previous position (changes with every change of position)
         speed (int, int) : Two-dimensional derivation of position
-
+    Functions:
+        calc_speed : update the speed vector on position change
     """
 
     last_id = -1
