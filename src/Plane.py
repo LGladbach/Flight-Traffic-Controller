@@ -1,4 +1,4 @@
-import math
+from src.DegreeCalculator import DegreeCalculator
 
 class Plane:
     """
@@ -7,8 +7,8 @@ class Plane:
         last_id int : Highest id given to a plane, initially -1.
     Attributes:
         id int : Identification number of the plane (automatically defined by class)
-        position (int, int) : Position in airspace
-        prev_position (int, int) : Previous position (changes with every change of position)
+        position (float, float) : Position in airspace
+        prev_position (float, float) : Previous position (changes with every change of position)
         speed float : Absolute value of position change
         direction int : direction in degrees (0° is north)
     Functions:
@@ -17,7 +17,7 @@ class Plane:
 
     last_id = -1
 
-    def __init__(self, init_position:(int, int), init_speed:float, init_direction):
+    def __init__(self, init_position:(float, float), init_speed:float, init_direction:int):
         self._id = Plane.last_id + 1
         Plane.last_id += 1 #Autoincrement id of planes (currently not Thread safe)
         self._position = init_position
@@ -32,16 +32,7 @@ class Plane:
         """
         change_vector = (self._position[0] - self._prev_position[0], self._position[1] - self._prev_position[1])
         self._speed = (change_vector[0]**2 + change_vector[1]**2)**0.5
-        if change_vector[0] == 0:
-            change_vector = (0.0001, change_vector[1])
-        if change_vector[0] >= 0 and change_vector[1] >= 0:
-            self._direction = math.atan(change_vector[1]/change_vector[0]) / 3.14 * 180
-        elif change_vector[0] < 0 <= change_vector[1]:
-            self._direction = 360 + math.atan(change_vector[1]/change_vector[0]) / 3.14 * 180
-        elif change_vector[0] >= 0 > change_vector[1]:
-            self._direction = 180 + math.atan(change_vector[1]/change_vector[0]) / 3.14 * 180
-        elif change_vector[0] < 0 and change_vector[1] < 0:
-            self._direction = 270 - math.atan(change_vector[1]/change_vector[0]) / 3.14 * 180
+        self._direction = DegreeCalculator.calc_degree_from_vector(change_vector)
 
     @property
     def id(self):
@@ -52,7 +43,7 @@ class Plane:
         return self._position
 
     @position.setter
-    def position(self, new_position:(int, int)):
+    def position(self, new_position:(float, float)):
         self._position, self._prev_position = new_position, self._position
         self.calc_speed_and_direction()
 

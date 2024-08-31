@@ -1,4 +1,5 @@
-import Plane
+import src.Plane
+import src.Runway
 
 class Airspace:
     """
@@ -24,10 +25,10 @@ class Airspace:
         self._planes = []
         self._rule_set = rules
 
-    def append_runway(self, new_runway): #Add type hint, when runway class is implemented
+    def append_runway(self, new_runway:src.Runway.Runway): #Add type hint, when runway class is implemented
         self._runways.append(new_runway)
 
-    def append_plane(self, new_plane:Plane):
+    def append_plane(self, new_plane:src.Plane.Plane):
         self._planes.append(new_plane)
 
     def append_rule(self, new_rule): #Add type hint, when rule class is implemented
