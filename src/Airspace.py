@@ -5,7 +5,7 @@ class Airspace:
     """
     Implements the physical area the flight traffic controller has to control.
     Attributes:
-        size (int, int) : area is represented as a rectangle
+        size (float, float) : area is represented as a rectangle
         runways list[Runway] : list of all runways in the given area
         planes list[Plane] : list of all planes in the airspace
         rule_set list[Rule] : list of rules the flight traffic controller has to comply with
@@ -15,7 +15,7 @@ class Airspace:
         append_rule : args [new_rule:Rule] : appends new rule to rule_set list
     """
 
-    def __init__(self, area_size:(int, int), runway_list=None, rules=None):
+    def __init__(self, area_size:(float, float), runway_list=None, rules=None):
         if runway_list is None:
             runway_list = []
         if rules is None:

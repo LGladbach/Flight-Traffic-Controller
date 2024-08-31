@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="change: changed speed attribute in Plane class to speed as absolute value of flying vectors, for this purpose direction was introduced to represent the compass direction of the plane">
-      <change afterPath="$PROJECT_DIR$/src/DegreeCalculator.py" afterDir="false" />
+    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_trash/Test_Airspace_Runway_Plane.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_trash/Test_Airspace_Runway_Plane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_trash/tests_plane.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_trash/tests_plane.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Airspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airspace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runway.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runway.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725034576905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)">
+      <option name="closed" value="true" />
+      <created>1725096195143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725096195143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +149,7 @@
     <MESSAGE value="feat: added Runway class as representation of physical runway in Airspace" />
     <MESSAGE value="process: created file for Testing environment" />
     <MESSAGE value="change: changed speed attribute in Plane class to speed as absolute value of flying vectors, for this purpose direction was introduced to represent the compass direction of the plane" />
-    <option name="LAST_COMMIT_MESSAGE" value="change: changed speed attribute in Plane class to speed as absolute value of flying vectors, for this purpose direction was introduced to represent the compass direction of the plane" />
+    <MESSAGE value="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)" />
   </component>
 </project>
