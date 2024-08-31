@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="minor change: changed airspace size type to float">
-      <change afterPath="$PROJECT_DIR$/src/TrafficController.py" afterDir="false" />
+    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="feat: added TrafficController class without core functionality, just some attribute management and migrated rule_set from airspace to Traffic Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airspace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DegreeCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DegreeCalculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725096494395</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: added TrafficController class without core functionality, just some attribute management and migrated rule_set from airspace to Traffic Controller">
+      <option name="closed" value="true" />
+      <created>1725097525931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725097525931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +179,7 @@
     <MESSAGE value="change: changed speed attribute in Plane class to speed as absolute value of flying vectors, for this purpose direction was introduced to represent the compass direction of the plane" />
     <MESSAGE value="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)" />
     <MESSAGE value="minor change: changed airspace size type to float" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor change: changed airspace size type to float" />
+    <MESSAGE value="feat: added TrafficController class without core functionality, just some attribute management and migrated rule_set from airspace to Traffic Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added TrafficController class without core functionality, just some attribute management and migrated rule_set from airspace to Traffic Controller" />
   </component>
 </project>
