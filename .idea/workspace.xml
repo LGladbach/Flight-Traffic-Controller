@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)">
+    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="minor change: changed airspace size type to float">
+      <change afterPath="$PROJECT_DIR$/src/TrafficController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Airspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airspace.py" afterDir="false" />
     </list>
@@ -128,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725096195143</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor change: changed airspace size type to float">
+      <option name="closed" value="true" />
+      <created>1725096494395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725096494395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +145,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -150,6 +171,7 @@
     <MESSAGE value="process: created file for Testing environment" />
     <MESSAGE value="change: changed speed attribute in Plane class to speed as absolute value of flying vectors, for this purpose direction was introduced to represent the compass direction of the plane" />
     <MESSAGE value="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added DegreeCalculator class to calculate degrees on compass scale and changed position type to float (updated tests)" />
+    <MESSAGE value="minor change: changed airspace size type to float" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor change: changed airspace size type to float" />
   </component>
 </project>
