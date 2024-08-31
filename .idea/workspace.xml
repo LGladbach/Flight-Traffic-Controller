@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="fix/feat: fixed wrong degree bug in DegreeCalculator and added degree to vector function">
+    <list default="true" id="77f5f7f6-cfff-44ed-9439-286988c57f0b" name="Changes" comment="refactor: cleanup DegreeCalculator and Type hints where useful">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airspace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DegreeCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DegreeCalculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrafficController.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrafficController.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725101948389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: cleanup DegreeCalculator and Type hints where useful">
+      <option name="closed" value="true" />
+      <created>1725102324267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725102324267</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +198,7 @@
     <MESSAGE value="minor change: changed airspace size type to float" />
     <MESSAGE value="feat: added TrafficController class without core functionality, just some attribute management and migrated rule_set from airspace to Traffic Controller" />
     <MESSAGE value="fix/feat: fixed wrong degree bug in DegreeCalculator and added degree to vector function" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix/feat: fixed wrong degree bug in DegreeCalculator and added degree to vector function" />
+    <MESSAGE value="refactor: cleanup DegreeCalculator and Type hints where useful" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: cleanup DegreeCalculator and Type hints where useful" />
   </component>
 </project>
