@@ -13,31 +13,31 @@ class Airspace:
         append_plane : args [new_plane:Plane] : appends new plane to plane list (happens when plane enters airspace)
     """
 
-    def __init__(self, area_size:(float, float), runway_list=None):
+    def __init__(self, area_size:(float, float), runway_list=None) -> None:
         if runway_list is None:
             runway_list = []
         self._size = area_size
         self._runways = runway_list
         self._planes = []
 
-    def append_runway(self, new_runway:src.Runway.Runway): #Add type hint, when runway class is implemented
+    def append_runway(self, new_runway:src.Runway.Runway) -> None: #Add type hint, when runway class is implemented
         self._runways.append(new_runway)
 
-    def append_plane(self, new_plane:src.Plane.Plane):
+    def append_plane(self, new_plane:src.Plane.Plane) -> None:
         self._planes.append(new_plane)
 
     @property
-    def size(self):
+    def size(self) -> (float, float):
         return self._size
 
     @size.setter
-    def size(self, new_size:(int, int)):
+    def size(self, new_size:(int, int)) -> None:
         self._size = new_size
 
     @property
-    def runways(self):
+    def runways(self) -> list[src.Runway.Runway]:
         return self._runways
 
     @property
-    def planes(self):
+    def planes(self) -> list[src.Plane.Plane]:
         return self._planes

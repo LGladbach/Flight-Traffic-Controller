@@ -17,7 +17,7 @@ class Plane:
 
     last_id = -1
 
-    def __init__(self, init_position:(float, float), init_speed:float, init_direction:int):
+    def __init__(self, init_position:(float, float), init_speed:float, init_direction:int) -> None:
         self._id = Plane.last_id + 1
         Plane.last_id += 1 #Autoincrement id of planes (currently not Thread safe)
         self._position = init_position
@@ -25,7 +25,7 @@ class Plane:
         self._speed = init_speed
         self._direction = init_direction
 
-    def calc_speed_and_direction(self):
+    def calc_speed_and_direction(self) -> None:
         """
         Calculates the speed of the plane dependent on current and previous position.
         return None
@@ -35,22 +35,22 @@ class Plane:
         self._direction = DegreeCalculator.calc_degree_from_vector(change_vector)
 
     @property
-    def id(self):
+    def id(self) -> int:
         return self._id
 
     @property
-    def position(self):
+    def position(self) -> (float, float):
         return self._position
 
     @position.setter
-    def position(self, new_position:(float, float)):
+    def position(self, new_position:(float, float)) -> None:
         self._position, self._prev_position = new_position, self._position
         self.calc_speed_and_direction()
 
     @property
-    def speed(self):
+    def speed(self) -> float:
         return self._speed
 
     @property
-    def direction(self):
+    def direction(self) -> int:
         return self._direction

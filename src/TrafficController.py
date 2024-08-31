@@ -10,22 +10,22 @@ class TrafficController:
     Functions:
         append_rule : args [new_rule:Rule] : appends new rule to rule_set list
     """
-    def __init__(self, init_airspace:src.Airspace.Airspace, rules=None):
+    def __init__(self, init_airspace:src.Airspace.Airspace, rules=None) -> None:
         self._airspace = init_airspace
         if rules is None:
             rules = []
         self._rule_set = rules
         self._precalc_air_situation = []
 
-    def append_rule(self, new_rule): #Add type hint, when rule class is implemented
+    def append_rule(self, new_rule) -> None: #Add type hint, when rule class is implemented
         self._rule_set.append(new_rule)
 
     @property
-    def airspace(self):
+    def airspace(self) -> src.Airspace.Airspace:
         return self._airspace
 
     @airspace.setter
-    def airspace(self, new_airspace:src.Airspace.Airspace):
+    def airspace(self, new_airspace:src.Airspace.Airspace) -> None:
         pass
 
     @property

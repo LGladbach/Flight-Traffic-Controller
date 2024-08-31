@@ -30,5 +30,3 @@ class DegreeCalculator:
             result = (-1, math.tan((degree - 270) / 180 * 3.14))
         #Shorten vector
         return result
-for x in range(360):
-    print(DegreeCalculator.calc_vector_from_degree(x))
